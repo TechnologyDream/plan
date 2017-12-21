@@ -10,8 +10,7 @@
 ```Linux localhost.localdomain 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux```
 
 # 2. 导入public key
-```[root@localhost ~]# rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
-```
+```[root@localhost ~]# rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org```
 # 3. 安装ELRepo到CentOS
 可以去http://elrepo.org/tiki/tiki-index.php 选择要安装的ELRepo 
 ```rpm -Uvh http://www.elrepo.org/elrepo-release-6-8.el6.elrepo.noarch.rpm (external link)```
