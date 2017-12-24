@@ -1,0 +1,9 @@
+JAVA_HOME=/usr/local/java/jdk1.8.0_151
+
+JRE_HOME=/usr/local/java/jdk1.8.0_151/jre
+
+CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+
+PATH=$JAVA_HOME/bin:$PATH
+
+export PATH JAVA_HOME CLASSPATH
